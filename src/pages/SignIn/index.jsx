@@ -50,7 +50,7 @@ function LoginComponent() {
                   </div>
                   <div className="card-body">
                     <Formik
-                      initialValues={{ username: 'admin@gmail.com', password: '123456789', remember: false }}
+                      initialValues={{ username: '', password: '', remember: false }}
                       validate={validate}
                       onSubmit={handleSubmit}
                     >
