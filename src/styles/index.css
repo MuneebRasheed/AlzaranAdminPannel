@@ -1,0 +1,112 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding-top: 20px;
+  background-color: #293e52;
+  color: #fff; /* Light text color */
+}
+.sidebar a {
+  color: #fff; /* Light text color for links */
+  transition: color 0.3s; /* Smooth transition on hover */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.sidebar a:hover {
+  color: #17a2b8; /* Change color on hover */
+}
+.sidebar a:focus {
+color: white !important; }
+
+  
+.content {
+  margin-left: 16.67%; /* Adjusted to accommodate the fixed sidebar */
+  padding: 20px;
+}
+.sub-item {
+  display: none;
+}
+.w {
+  display: none;
+}
+.slider {
+  padding: 0;
+  border: 1px solid #000;
+}
+.bg-color {
+  background-color: #343a40;
+}
+.btn-color{
+  background-color: #4aa88a;
+  color: white;
+}
+.btn-color:hover{
+  background-color: #4aa88a;
+  color: white;
+}
+.main-slide{
+  background-color: #293e52;
+  height: 100vh;
+}
+.main-container{
+  height: 100vh;
+}
+
+.logo-image{
+  width: 600px;
+}
+.doggle-button{
+  width: 400px;
+}
+.uploadOuter {
+  /* text-align: center; */
+  
+}
+.dragBox {
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  line-height: 95px;
+  color: #999;
+  border: 2px dashed #ccc;
+  display: inline-block;
+  transition: transform 0.3s;
+  input[type="file"] {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+  }
+}
+.draging {
+  transform: scale(1.1);
+}
+#preview {
+  text-align: center;
+  img {
+    max-width: 100%
+  }
+}
+
+
+.vertical-divider {
+  border-left: 1px solid #ccc; /* Adjust the color and thickness as needed */
+  height: 100%; /* Adjust the height as needed */
+  margin: 0 15px; /* Adjust the margin as needed */
+}
